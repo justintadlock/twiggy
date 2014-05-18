@@ -1,0 +1,99 @@
+/**
+ * Theme Name:  Twiggy
+ * Theme URI:   http://themehybrid.com/themes/twiggy
+ * Description: A clean and minimal child theme for the <a href="http://wordpress.org/themes/stargazer">Stargazer</a> parent theme. This child theme uses a thinner font to completely transform how its parent theme looks.  It offers an alternative color scheme and comes packaged with additional backgrounds to use with the WordPress custom background feature.
+ * Version:     1.0.0
+ * Author:      Justin Tadlock
+ * Author URI:  http://themehybrid.com
+ * Tags:        black, blue, gray, white, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    stargazer
+ */
+
+/* ====== Primary Font ====== */
+
+.font-primary,
+body,
+input,
+textarea,
+.label-checkbox,
+.label-radio,
+.required,
+#site-description,
+#reply-title small { 
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* ====== Secondary Font ====== */
+
+.font-secondary,
+dt,
+th,
+legend,
+label,
+input[type="submit"],
+input[type="reset"], 
+input[type="button"],
+button,
+select,
+option,
+.wp-caption-text,
+.gallery-caption,
+.mejs-controls,
+.wp-playlist-item-meta,
+.entry-byline,
+.entry-footer,
+.chat-author cite,
+.chat-author,
+.comment-meta,
+.menu,
+.breadcrumb-trail,
+.media-info .prep,
+.comment-reply-link,
+.comment-reply-login,
+.clean-my-archives .day,
+.whistle-title {
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* ====== Headlines Font ====== */
+
+.font-headlines,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:  'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* Thin font weights. */
+
+#site-description, 
+.main,
+#menu-primary li a { font-weight: 300; }
+
+/* Normal font weights. */
+#menu-secondary li a,
+.widget-title > .wrap,
+#comments-number > .wrap,
+#reply-title > .wrap,
+.attachment-meta-title > .wrap,
+dt,
+dt.font-secondary { font-weight: 400; }
+
+/* Bold font weights. */
+
+b,
+strong,
+.comment-author { font-weight: 600; }
+
+/* Variables look better in serif. */
+var { 
+	font-family: 'Droid Serif', 'Lora', 'Georgia', serif; 
+}
